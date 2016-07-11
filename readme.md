@@ -47,8 +47,15 @@ Then in terminal:
 ## Scaffold our resource
 
 `rails g scaffold language name description`
+This should generate the normal stuff AND a serializer, which happened because we included the active_model_serializer gem, which should look like this:
 
-Let's check out what we generated!
+```ruby
+class LanguageSerializer < ActiveModel::Serializer
+  attributes :name, :description
+end
+```
+
+Let's check out what else we generated!
 
 ## Let's seed our db!
 
