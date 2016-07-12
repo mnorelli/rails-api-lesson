@@ -69,7 +69,7 @@ Then:
 ## Be Kind: Version Control your API
 
 API's evolve, but if any part of your API is public facing, it should behave consistently.
-If you haven't experienced the frustration of using an exteral API and it suddenly not functioning because it was 'updated', I hope it stays that way!
+If you haven't experienced the frustration of using an external API and it suddenly not functioning because it was 'updated', I hope it stays that way!
 
 Best practices for APIs is to namespace all routs as
 `/api/v1/your-resource`
