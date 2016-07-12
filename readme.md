@@ -119,7 +119,7 @@ config.middleware.insert_before 0, "Rack::Cors", :debug => true, :logger => (-> 
 That's it!
 
 ## Independent Practice
-Refine the skills covered in this workshop with this [lab](#)
+Refine the skills covered in this workshop with this [lab](https://github.com/sf-wdi-29/rails-api-lab)
 
 ## Additional Resources
 - [Rails API source code](https://github.com/rails-api/rails-api)
